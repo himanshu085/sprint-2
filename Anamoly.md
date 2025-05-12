@@ -78,13 +78,15 @@ Cost Optimization Designing involves creating architectural patterns, policies, 
 
 ## Best Practices
 
-- **Use Tags Consistently:** For tracking resource usage by department or environment.  
-- **Set Budget Alerts:** Configure soft and hard thresholds in AWS Budgets or GCP Billing.  
-- **Enable Anomaly Detection:** Use tools like AWS Cost Anomaly Detection or custom ML models.  
-- **Leverage Automation:** Auto-scale, auto-stop, and auto-cleanup to reduce idle resource costs.  
-- **Monitor Daily:** Integrate daily cost reporting into team communication platforms.  
-- **Review Reserved Usage:** Match usage patterns with reserved instance savings opportunities.  
-- **Perform Regular Audits:** Monthly reviews of spend, usage, and unused resources.  
+| **Best Practice**           | **Description**                                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| **Use Tags Consistently**   | For tracking resource usage by department or environment.                                      |
+| **Set Budget Alerts**       | Configure soft and hard thresholds in AWS Budgets or GCP Billing.                              |
+| **Enable Anomaly Detection**| Use tools like AWS Cost Anomaly Detection or custom ML models.                                  |
+| **Leverage Automation**     | Auto-scale, auto-stop, and auto-cleanup to reduce idle resource costs.                         |
+| **Monitor Daily**           | Integrate daily cost reporting into team communication platforms.                              |
+| **Review Reserved Usage**   | Match usage patterns with reserved instance savings opportunities.                             |
+| **Perform Regular Audits**  | Monthly reviews of spend, usage, and unused resources.                                         |
 
 ---
 
