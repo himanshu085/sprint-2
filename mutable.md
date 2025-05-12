@@ -65,7 +65,7 @@ The right choice of infrastructure model can lead to more predictable, secure, a
 
 ## Reference Diagrams
 
-*Here, you can manually add your reference diagrams for Mutable and Immutable Infrastructure.*
+![Screenshot from 2025-05-13 01-20-45](https://github.com/user-attachments/assets/5d10c699-8de5-438c-8562-6156096905c2)
 
 ---
 
