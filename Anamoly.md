@@ -60,11 +60,7 @@ Cost Optimization Designing involves creating architectural patterns, policies, 
 
 ## Workflow Diagram
 
-```
 ![Screenshot from 2025-05-12 16-37-35](https://github.com/user-attachments/assets/9876a85e-f2e7-471f-9cb4-86faa93b90a1)
-
-
-```
 
 ---
 
