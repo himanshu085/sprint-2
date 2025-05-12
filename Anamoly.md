@@ -18,16 +18,16 @@
 
 ## Table of Contents
 
-- Introduction  
-- What is Cost Optimization Designing?  
-- Why is Cost Optimization Important?  
-- Workflow Diagram  
-- Advantages  
-- Best Practices  
-- Conclusion  
-- Contact Information  
-- References  
-
+- [Introduction](#introduction)  
+- [What is Cost Optimization Designing?](#what-is-cost-optimization-designing)  
+- [Why is Cost Optimization Important?](#why-is-cost-optimization-important)  
+- [Workflow Diagram](#workflow-diagram)  
+- [Advantages](#advantages)  
+- [Best Practices](#best-practices)  
+- [Conclusion](#conclusion)  
+- [Contact Information](#contact-information)  
+- [References](#references)
+  
 ---
 
 ## Introduction
