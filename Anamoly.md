@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/98dd267b-0cfb-4ca5-a4d5-ec0e6f62d692" alt="Screenshot from 2025-05-13 00-48-27" width="250"/>
+</p>
+
+
 # Cost Optimization Designing | Documentation | Budget and Cost Anomaly Alerts
 
 ### This document provides a detailed documentation for implementing cost optimization design, budget planning, and anomaly alert mechanisms across cloud environments.
@@ -56,22 +61,9 @@ Cost Optimization Designing involves creating architectural patterns, policies, 
 ## Workflow Diagram
 
 ```
-+-------------------+      +----------------------+      +---------------------+
-|  Define Budgets   | ---> |  Set Threshold Alerts| ---> | Anomaly Detection   |
-| (Per Team/Project)|      |  (Daily/Monthly)     |      | with AI/ML Patterns |
-+-------------------+      +----------------------+      +---------------------+
-                                    |
-                                    v
-                      +-------------------------------+
-                      | Cost Dashboards & Notifications|
-                      | (Slack/Email/Webhooks etc.)    |
-                      +-------------------------------+
-                                    |
-                                    v
-                      +------------------------------+
-                      | Cost Optimization Actions    |
-                      | (Rightsize, Shut Down, Tag)  |
-                      +------------------------------+
+![Screenshot from 2025-05-12 16-37-35](https://github.com/user-attachments/assets/9876a85e-f2e7-471f-9cb4-86faa93b90a1)
+
+
 ```
 
 ---
