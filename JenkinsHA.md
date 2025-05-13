@@ -1,11 +1,16 @@
+![image](https://github.com/user-attachments/assets/644c45ce-9f7a-440d-b92c-ead18d01f4a9)
+
+
 # **Documentation of Jenkins High Availability**
 
 ---
 
-
-
-
-
+| **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
+|------------|----------------|-------------|----------------------|---------------------|---------------------|------------------|
+| Himanshu   | 2025-05-14     | 1.0         | Himanshu             | 2025-05-14        | Internal Reviewer   | Komal Jaiswal    |
+| Himanshu   | 2025-05-14     | 1.0         | Himanshu             | 2025-05-14        | L0                  | Imran            |
+| Himanshu   | 2025-05-14     | 1.0         | Himanshu             | 2025-05-14        | L1                  | Shashi           |
+| Himanshu   | 2025-05-14     | 1.0         | Himanshu             | 2025-05-14        | L2                  | Mahesh Kumar     |
 
 
 ---
@@ -56,7 +61,8 @@ Jenkins HA operates using a **Master-Slave** or **Multi-Master** architecture to
 | **Load Balancer**  | Distributes traffic between Jenkins instances to ensure availability. |  
 
 ### **Architecture Diagram**
-![jarch](https://github.com/user-attachments/assets/bc87f481-8134-45a4-a340-24f34f8464e5)
+![Screenshot from 2025-05-13 23-54-38](https://github.com/user-attachments/assets/35e42814-7367-46dc-8b67-4e50948dfb3f)
+
 
 ---
 
@@ -85,7 +91,7 @@ Jenkins HA can use an **Active/Passive** setup where only one master node is act
 | **Passive Node**| A standby Jenkins instance that remains in sync with the active node but takes over only when the active node fails. |
 
 ### **Active-Passive Architecture Diagram**
-![image](https://github.com/user-attachments/assets/d22dc19d-4421-4064-a657-0b51062ade1e)
+![Screenshot from 2025-05-14 00-05-28](https://github.com/user-attachments/assets/530b2a9e-dff6-4a80-812a-a931b7cc3b70)
 
 ---
 
@@ -107,7 +113,9 @@ Setting up Jenkins in HA mode ensures smooth CI/CD operations, even if failures 
 ---
 
 ## **Contact**  
-
+| Name              | Email Address                                   |
+|-------------------|--------------------------------------------------|
+| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co         |
 
 
 ---
