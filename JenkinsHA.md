@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/12c81a6b-c661-46dd-996f-938c8a236448" alt="Jenkins HA Diagram">
+</p>
+
 # **Documentation of Jenkins High Availability**
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
