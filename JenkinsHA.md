@@ -91,7 +91,8 @@ Jenkins HA can use an **Active/Passive** setup where only one master node is act
 | **Passive Node**| A standby Jenkins instance that remains in sync with the active node but takes over only when the active node fails. |
 
 ### **Active-Passive Architecture Diagram**
-![Screenshot from 2025-05-14 00-05-28](https://github.com/user-attachments/assets/530b2a9e-dff6-4a80-812a-a931b7cc3b70)
+![Screenshot from 2025-05-14 00-19-41](https://github.com/user-attachments/assets/c5430987-ff8b-44e5-b73b-113eb1fb0d9f)
+
 
 ---
 
