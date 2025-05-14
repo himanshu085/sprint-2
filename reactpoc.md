@@ -18,7 +18,7 @@
   - [Cloning the React Application](#cloning-the-react-application)  
   - [Test Case Updates](#test-case-updates)  
     - [Updated Test Files](#updated-test-files)  
-    - [Why Use <MemoryRouter>?](#why-use-memoryrouter)  
+    - [Why Use MemoryRouter?](#why-use-memoryrouter)  
   - [Install Testing Dependencies](#install-testing-dependencies)  
   - [Running the Tests](#running-the-tests)  
   - [Generating the Report](#generating-the-report)  
