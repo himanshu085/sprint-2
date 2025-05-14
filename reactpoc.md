@@ -1,3 +1,4 @@
+
 # React CI Check | Unit Testing | POC
 
 | Author     | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
@@ -26,7 +27,6 @@
 - [Conclusion](#conclusion)  
 - [Contact](#contact)  
 - [Reference](#reference)  
-
 ---
 
 ## Introduction
@@ -39,26 +39,42 @@ In this document, we are creating a proof of concept (POC) for unit testing a Re
 
 Ensure Node.js (>=14) and npm (or yarn) are installed.
 
-Install testing dependencies:
+Verify setup:
 
 ```bash
-npm install --save-dev @testing-library/react @testing-library/jest-dom
+sudo apt install -y nodejs npm
 ```
 
-Verify setup:
+Check versions:
 
 ```bash
 node -v
 npm -v
 ```
 
+Install testing dependencies:
+
+```bash
+npm install --save-dev @testing-library/react@12.1.5 @testing-library/jest-dom@5.16.5
+```
 ---
 
-## Test Case Updates
+## Steps of Unit Testing
 
-### Updated Test Files
+### Cloning the React Application
 
-✅ `src/__tests__/AttendanceForm.test.js`
+```bash
+mkdir React-Testing
+cd React-Testing
+git clone https://github.com/OT-MICROSERVICES/frontend.git
+cd frontend
+```
+
+### Test Case Updates
+
+#### Updated Test Files
+
+✅ **src/__tests__/AttendanceForm.test.js**
 
 ```javascript
 import React from "react";
@@ -75,7 +91,7 @@ test("renders AttendanceForm component without crashing", () => {
 });
 ```
 
-✅ `src/__tests__/EmployeeList.test.js`
+✅ **src/__tests__/EmployeeList.test.js**
 
 ```javascript
 import React from "react";
@@ -92,7 +108,7 @@ test("renders EmployeeList component without crashing", () => {
 });
 ```
 
-✅ `src/__tests__/HomePage.test.js`
+✅ **src/__tests__/HomePage.test.js**
 
 ```javascript
 import React from "react";
@@ -111,15 +127,13 @@ test("renders HomePage component without crashing", () => {
 
 ---
 
-### Why Use `<MemoryRouter>`?
+### Why Use MemoryRouter?
 
-- `<MemoryRouter>` creates an **in-memory history stack** to simulate routing behavior during tests without modifying browser history.
-- It is necessary when components use React Router features like `Link`, `useNavigate`, etc.
+- **<MemoryRouter>** creates an **in-memory history stack** to simulate routing behavior during tests without modifying browser history.
+- It is necessary when components use React Router features like Link, useNavigate, etc.
 - Ideal for unit testing: avoids needing a real DOM or full routing setup.
 
 ---
-
-## Steps of Unit Testing
 
 ### Install Testing Dependencies
 
@@ -150,9 +164,9 @@ npm test -- --watchAll=false
 Sample output:
 
 ```
- PASS  src/__tests__/HomePage.test.js
- PASS  src/__tests__/AttendanceForm.test.js
- PASS  src/__tests__/EmployeeList.test.js
+PASS  src/__tests__/HomePage.test.js
+PASS  src/__tests__/AttendanceForm.test.js
+PASS  src/__tests__/EmployeeList.test.js
 ```
 
 ---
@@ -167,11 +181,9 @@ npm test -- --coverage
 
 Sample output:
 
-```
-File         | % Stmts | % Branch | % Funcs | % Lines |
--------------|---------|----------|--------|---------|
-All files    |   85.71 |       80 |     90 |   85.71 |
-```
+| File         | % Stmts | % Branch | % Funcs | % Lines |
+|--------------|---------|----------|--------|---------|
+| All files    |   85.71 |       80 |     90 |   85.71 |
 
 #### View Coverage Report
 
@@ -192,7 +204,7 @@ coverage/lcov-report/index.html
 
 ## Conclusion
 
-Unit testing in React using Jest and React Testing Library ensures reliable component behavior, detects issues early, and supports CI pipelines. Wrapping routing-dependent components with `<MemoryRouter>` enables tests to run seamlessly.
+Unit testing in React using Jest and React Testing Library ensures reliable component behavior, detects issues early, and supports CI pipelines. Wrapping routing-dependent components with **<MemoryRouter>** enables tests to run seamlessly.
 
 ---
 
