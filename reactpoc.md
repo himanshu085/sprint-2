@@ -73,6 +73,10 @@ cd frontend
 ### Test Case Updates
 
 #### Updated Test Files
+```bash
+mkdir -p src/tests
+vi src/tests/AttendanceForm.test.js
+```
 
 ✅ **src/__tests__/AttendanceForm.test.js**
 
@@ -90,6 +94,9 @@ test("renders AttendanceForm component without crashing", () => {
   );
 });
 ```
+```bash
+vi src/tests/EmployeeList.test.js
+```
 
 ✅ **src/__tests__/EmployeeList.test.js**
 
@@ -106,6 +113,10 @@ test("renders EmployeeList component without crashing", () => {
     </MemoryRouter>
   );
 });
+```
+
+```bash
+vi src/tests/HomePage.test.js
 ```
 
 ✅ **src/__tests__/HomePage.test.js**
