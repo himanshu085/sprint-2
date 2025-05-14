@@ -52,11 +52,6 @@ node -v
 npm -v
 ```
 
-Install testing dependencies:
-
-```bash
-npm install --save-dev @testing-library/react@12.1.5 @testing-library/jest-dom@5.16.5
-```
 ---
 
 ## Steps of Unit Testing
@@ -69,6 +64,8 @@ cd React-Testing
 git clone https://github.com/OT-MICROSERVICES/frontend.git
 cd frontend
 ```
+![Screenshot from 2025-05-15 02-34-50](https://github.com/user-attachments/assets/b2ad64fb-4a77-4c53-b0df-3613c2f05e5e)
+
 
 ### Test Case Updates
 
@@ -135,6 +132,7 @@ test("renders HomePage component without crashing", () => {
   );
 });
 ```
+![Screenshot from 2025-05-15 02-31-44](https://github.com/user-attachments/assets/ff3a396d-0a34-410a-8ad8-7b62676d60c0)
 
 ---
 
@@ -151,8 +149,9 @@ test("renders HomePage component without crashing", () => {
 If not already done, install project dependencies:
 
 ```bash
-npm install
+npm install --save-dev @testing-library/react@12.1.5 @testing-library/jest-dom@5.16.5
 ```
+![Screenshot from 2025-05-15 01-31-27](https://github.com/user-attachments/assets/d211fe5f-3df7-44ed-ac54-0a19c8cf3596)
 
 ---
 
@@ -171,14 +170,11 @@ Or in CI mode:
 ```bash
 npm test -- --watchAll=false
 ```
+![Screenshot from 2025-05-15 01-30-00](https://github.com/user-attachments/assets/01122808-df4b-4837-a003-8b197e322b31)
 
-Sample output:
+Output:
 
-```
-PASS  src/__tests__/HomePage.test.js
-PASS  src/__tests__/AttendanceForm.test.js
-PASS  src/__tests__/EmployeeList.test.js
-```
+![Screenshot from 2025-05-15 01-30-20](https://github.com/user-attachments/assets/0b21d270-7e6c-4824-802f-a35cd643bac6)
 
 ---
 
@@ -190,11 +186,12 @@ PASS  src/__tests__/EmployeeList.test.js
 npm test -- --coverage
 ```
 
-Sample output:
+![Screenshot from 2025-05-15 01-36-34](https://github.com/user-attachments/assets/0042aa20-fa2a-4364-8b91-95d118078cac)
 
-| File         | % Stmts | % Branch | % Funcs | % Lines |
-|--------------|---------|----------|--------|---------|
-| All files    |   85.71 |       80 |     90 |   85.71 |
+Output:
+
+![Screenshot from 2025-05-15 01-37-02](https://github.com/user-attachments/assets/58271d0f-0086-4fb7-b574-3bb40a382f4c)
+
 
 #### View Coverage Report
 
@@ -210,12 +207,13 @@ Or manually navigate to:
 ```
 coverage/lcov-report/index.html
 ```
+![Screenshot from 2025-05-15 01-40-06](https://github.com/user-attachments/assets/eae4a359-3e98-4d5a-adb3-e0d69e275599)
 
 ---
 
 ## Conclusion
 
-Unit testing in React using Jest and React Testing Library ensures reliable component behavior, detects issues early, and supports CI pipelines. Wrapping routing-dependent components with **<MemoryRouter>** enables tests to run seamlessly.
+Unit testing in React using Jest and React Testing Library ensures the reliability of UI components, detects edge-case bugs early, improves code maintainability, and supports CI pipelines. This POC confirms the ability to run CI-compatible unit tests and generate insightful coverage reports for the React application in the frontend repository. Wrapping routing-dependent components with <MemoryRouter> ensures seamless test execution without relying on a real DOM or full routing setup.
 
 ---
 
