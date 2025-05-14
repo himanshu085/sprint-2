@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4f2d68d7-3e53-40f2-bd5b-164f02f0d0fa" alt="Screenshot from 2025-05-14 22-35-08">
+  <img src="https://github.com/user-attachments/assets/4f2d68d7-3e53-40f2-bd5b-164f02f0d0fa" alt="Screenshot from 2025-05-14 22-35-08" width="350">
 </p>
 
 # Golang Unit Testing
