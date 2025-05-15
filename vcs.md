@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3cb3f0df-bb10-4031-8a3a-bcf5579f08a3" alt="Screenshot from 2025-05-15 19-25-15" width="450">
+</p>
+
 # VCS IMPLEMENTATION: AUTHENTICATION SETUP
 
 | Author   | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
