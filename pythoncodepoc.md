@@ -36,10 +36,26 @@ The objective of this POC is to demonstrate how to use PyInstaller to compile a 
 - **Python Installed**: Ensure you have Python installed on your system (preferably Python 3.x).
 - For Python Installation follow this [Guide](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum13/commonstack/applications/python/installation/installation_guide.md)
 - **PyInstaller Installed**: Install PyInstaller via pip if you haven’t done so yet.
-
 ```bash
 pip install pyinstaller
 ```
+- **Ensure Flask Installed**: Install Flask via pip if you haven't done so yet.
+  ```bash
+  pip install flask
+```
+
+- **Ensure Flask Installed**: Install Flasgger via pip if you haven't done so yet.
+
+```bash
+pip install flasgger
+```
+- **Ensure Prometheus Flask Exporter Installed**: Install Prometheus Flask Exporter via pip if you haven't done so yet.
+
+```bash
+pip install prometheus_flask_exporter
+```
+
+- **Ensure Flask Installed**:
 ## Objective
 
 Compile and test the Attendance and Notification Python services using PyInstaller in a CI-friendly setup.
@@ -60,19 +76,19 @@ Typically, this will be `main.py` or the entry-point script of the service.
 ### Compile the main Python script using PyInstaller:
 
 ```bash
-pyinstaller --onefile main.py
+pyinstaller --onefile app.py
 ```
 This command generates a standalone binary in the `dist/` directory.
 
 ### Run the compiled binary:
 
 ```bash
-./dist/main
+./dist/app
 ```
 Make sure to give execution permission if required:
 
 ```bash
-chmod +x ./dist/main
+chmod +x ./dist/app
 ```
 
 ## Contact
