@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b0eea18-d900-4abd-9e03-e866a426d4c8" alt="Screenshot from 2025-05-15 13-25-41" width="450">
+</p>
+
+
 # Proof of Concept (POC): Python Code Compilation Using PyInstaller
 
 | Author   | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
