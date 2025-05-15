@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b0eea18-d900-4abd-9e03-e866a426d4c8" alt="Screenshot from 2025-05-15 13-25-41" width="450">
+</p>
+
 
 # Application CI Design  
 **Python CI Checks (for Attendance & Notification) | Code Compilation**
