@@ -39,13 +39,15 @@ This README provides a comprehensive walkthrough to set up secure authentication
 - Navigate to your platform's login page.
 - Enter your username and password.
 
-![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20124306.png)
+![Screenshot from 2025-05-15 18-41-22](https://github.com/user-attachments/assets/1686fd54-feb1-4db1-9689-94fa9125e136)
+
 
 ### Step 2: Enable 2FA
 - Go to **Settings** → **Security** or **Account Security**.
 - Click **Enable Two-Factor Authentication**.
 
-![2](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20124502.png)
+![Screenshot from 2025-05-15 18-45-45](https://github.com/user-attachments/assets/c451f7cb-b61c-4273-9e4e-766171d2f431)
+
 
 ### Step 3: Choose Authentication Method
 - Select **Authentication App** (recommended).
