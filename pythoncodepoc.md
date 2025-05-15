@@ -60,7 +60,7 @@ pip install prometheus_flask_exporter
 
   ```bash
   pip install emails
-```
+  ```
 
 ## Objective
 
@@ -76,8 +76,14 @@ Compile and test the Attendance and Notification Python services using PyInstall
 git clone https://github.com/OT-MICROSERVICES/attendance-api.git
 git clone https://github.com/OT-MICROSERVICES/notification-worker.git
 ```
+![Screenshot from 2025-05-15 14-47-43](https://github.com/user-attachments/assets/ef4757ff-feea-4185-9790-1f00d0c57456)
+
+
 ### Navigate to the directory and locate your main script  
 Typically, this will be `main.py` or the entry-point script of the service.
+
+![Screenshot from 2025-05-15 14-49-50](https://github.com/user-attachments/assets/56f2cf54-e68a-4bae-b547-7fb1de0c7e0e)
+
 
 ### Compile the main Python script using PyInstaller:
 
@@ -85,6 +91,11 @@ Typically, this will be `main.py` or the entry-point script of the service.
 pyinstaller --onefile app.py
 ```
 This command generates a standalone binary in the `dist/` directory.
+
+![Screenshot from 2025-05-15 14-54-22](https://github.com/user-attachments/assets/6926b1c7-5156-4021-a6f9-46e2987886bb)
+![Screenshot from 2025-05-15 14-54-48](https://github.com/user-attachments/assets/83d61dfa-03b1-44f8-af8c-e37862aa893e)
+![Screenshot from 2025-05-15 15-48-57](https://github.com/user-attachments/assets/1afe74ad-6ea3-4a08-9f5f-91bab276caf8)
+
 
 ### Run the compiled binary:
 
@@ -96,6 +107,9 @@ Make sure to give execution permission if required:
 ```bash
 chmod +x ./dist/app
 ```
+![Screenshot from 2025-05-15 15-34-45](https://github.com/user-attachments/assets/74131034-ab69-4d47-b2c6-44d5d9803803)
+![Screenshot from 2025-05-15 15-49-26](https://github.com/user-attachments/assets/d162a277-dc97-4cb4-8f44-0a4c89ede908)
+
 
 ## Contact
 
