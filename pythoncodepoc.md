@@ -40,9 +40,9 @@ The objective of this POC is to demonstrate how to use PyInstaller to compile a 
 pip install pyinstaller
 ```
 - **Ensure Flask Installed**: Install Flask via pip if you haven't done so yet.
-  ```bash
-  pip install flask
-  ```
+```bash
+pip install flask
+```
 
 - **Ensure Flask Installed**: Install Flasgger via pip if you haven't done so yet.
 
@@ -58,9 +58,9 @@ pip install prometheus_flask_exporter
 
 - **Ensure Email Installed**: Install Email via pip if you haven't done so yet.
 
-  ```bash
-  pip install emails
-  ```
+```bash
+pip install emails
+```
 
 ## Objective
 
