@@ -3,7 +3,8 @@
 </p>
 
 
-# Application CI Design  
+# Python Code Compilation
+
 **Python CI Checks (for Attendance & Notification) | Code Compilation**
 
 | Author   | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
@@ -92,38 +93,8 @@ In Python, code compilation refers to converting `.py` source files into `.pyc` 
 
 ## Proof of Concept (POC)
 
-### Objective:
-Compile and test the Attendance and Notification Python services using PyInstaller in CI.
-
-### Steps:
-
-1. Clone the repositories:
-   ```bash
-   git clone https://github.com/OT-MICROSERVICES/attendance-api.git
-   git clone https://github.com/OT-MICROSERVICES/notification-worker.git
-   ```
-
-2. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-
-3. Compile the main Python script:
-   ```bash
-   pyinstaller --onefile main.py
-   ```
-
-4. Run the generated binary:
-   ```bash
-   ./dist/main
-   ```
-
-5. Example GitHub Actions step:
-   ```yaml
-   - name: Compile Python App
-     run: pyinstaller --onefile main.py
-   ```
-
+- Please Refer Here for Code Compilation [POC](https://git
+- 
 ---
 
 ## Best Practices
