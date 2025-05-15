@@ -42,20 +42,26 @@ pip install pyinstaller
 - **Ensure Flask Installed**: Install Flask via pip if you haven't done so yet.
   ```bash
   pip install flask
-```
+  ```
 
 - **Ensure Flask Installed**: Install Flasgger via pip if you haven't done so yet.
 
 ```bash
 pip install flasgger
 ```
+
 - **Ensure Prometheus Flask Exporter Installed**: Install Prometheus Flask Exporter via pip if you haven't done so yet.
 
 ```bash
 pip install prometheus_flask_exporter
 ```
 
-- **Ensure Flask Installed**:
+- **Ensure Email Installed**: Install Email via pip if you haven't done so yet.
+
+  ```bash
+  pip install emails
+```
+
 ## Objective
 
 Compile and test the Attendance and Notification Python services using PyInstaller in a CI-friendly setup.
