@@ -1,20 +1,24 @@
 # VCS IMPLEMENTATION: AUTHENTICATION SETUP
 
-| Created     | Last Updated | Version | Author          | Comment         | Reviewer |
-|-------------|--------------|---------|-----------------|-----------------|----------|
-| 12-05-2025  |  12-05-2025  | V1      | Nishkarsh Kumar | Internal Review | Pritam   |
+| Author   | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
+|----------|------------|---------|------------------|----------------|-------------------|-----------------|
+| Himanshu | 2025-05-13 | 1.0     | Himanshu         | 2025-05-13     | Internal Reviewer | Komal Jaiswal   |
+| Himanshu | 2025-05-13 | 1.0     | Himanshu         | 2025-05-13     | L0                | Imran           |
+| Himanshu | 2025-05-13 | 1.0     | Himanshu         | 2025-05-13     | L1                | Shashi          |
+| Himanshu | 2025-05-13 | 1.0     | Himanshu         | 2025-05-13     | L2                | Mahesh Kumar    |
+
 
 ---
 
-
 ## Table of Contents
 
-1. [Introduction](#introduction)  
-2. [Pre-requisites](#pre-requisites)  
-3. [Authentication Method 1: 2FA](#authentication-method-1-2fa)  
-4. [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)    
-5. [Contact Information](#contact-information)  
-6. [References](#references)  
+- [Introduction](#introduction)  
+- [Pre-requisites](#pre-requisites)  
+- [Authentication Method 1: 2FA](#authentication-method-1-2fa)  
+- [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)  
+- [Contact Information](#contact-information)  
+- [References](#references)  
+
 
 ---
 
@@ -78,17 +82,22 @@ This README provides a comprehensive walkthrough to set up secure authentication
 ### Step 1: Access Token Settings
 - Go to **Settings** → **Developer Settings** → **Personal Access Tokens**.
 
-![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20125542.png)
+![Screenshot from 2025-05-15 19-05-59](https://github.com/user-attachments/assets/5a4beb12-8e2c-4cf0-9fb5-1413c018adc3)
+
 
 ### Step 2: Generate New Token (Classic)
 - Click **Generate New Token** → **Classic**.
 - Enter a token name, expiration date, and select the required scopes (e.g., repo, read:org).
 
-![2](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20120325.png)
+![Screenshot from 2025-05-15 19-06-45](https://github.com/user-attachments/assets/06eace04-fad9-42d9-9e49-194cbbd4d272)
+
 
 ### Step 3: Generate and Copy
 - Click **Generate Token**.
 - Copy the token **immediately** and store it in a password manager (you won't see it again).
+
+![Screenshot from 2025-05-15 19-08-07](https://github.com/user-attachments/assets/87a7e7d9-6181-4fa2-b2f3-26e2eca31198)
+
 
 ### Step 4: Use the Token
 - Use it in place of your password in CLI or API calls:
@@ -96,13 +105,15 @@ This README provides a comprehensive walkthrough to set up secure authentication
   git clone https://<username>@github.com/user/repo.git
   # When prompted for password, paste the PAT
 
-![3](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20120538.png)
+![Screenshot from 2025-05-15 19-14-41](https://github.com/user-attachments/assets/0dc6e85e-9a13-4b21-8e16-8c117925284d)
+
 
 ## Contact Information
 
-| **Name**    | **Email**                |
-|-------------|--------------------------|
-| Nishkarsh Kumar     | nishkarsh.kumar.snaatak@mygurukulam.co  |
+| Name              | Email                                         |
+|-------------------|-----------------------------------------------|
+| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co      |
+
 
 ## References  
 
