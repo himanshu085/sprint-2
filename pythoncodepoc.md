@@ -29,6 +29,7 @@ The objective of this POC is to demonstrate how to use PyInstaller to compile a 
 ## Prerequisites
 
 - **Python Installed**: Ensure you have Python installed on your system (preferably Python 3.x).
+- For Python Installation follow this [Guide](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum13/commonstack/applications/python/installation/installation_guide.md)
 - **PyInstaller Installed**: Install PyInstaller via pip if you haven’t done so yet.
 
 ```bash
