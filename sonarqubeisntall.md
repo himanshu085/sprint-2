@@ -52,12 +52,15 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install openjdk-17-jdk unzip wget -y
 ```
+![Screenshot from 2025-05-16 10-56-12](https://github.com/user-attachments/assets/71d0c456-8a53-42f6-8a2a-92409efc36bd)
+
 
 ### 2. Create SonarQube User
 
 ```bash
 sudo adduser --system --no-create-home --group --disabled-login sonar
 ```
+![Screenshot from 2025-05-16 10-57-00](https://github.com/user-attachments/assets/688d8da4-caf7-4900-b474-161934ad1714)
 
 ### 3. Install PostgreSQL and Configure Database
 
@@ -66,6 +69,7 @@ sudo apt install postgresql postgresql-contrib -y
 sudo -u postgres psql -c "CREATE USER sonar WITH ENCRYPTED PASSWORD 'sonar';"
 sudo -u postgres psql -c "CREATE DATABASE sonarqube OWNER sonar;"
 ```
+![Screenshot from 2025-05-16 10-58-00](https://github.com/user-attachments/assets/5e166172-7602-4cb8-83c0-e14abfb555f1)
 
 ### 4. Download and Extract SonarQube
 
@@ -75,6 +79,7 @@ unzip sonarqube-10.3.0.82913.zip
 sudo mv sonarqube-10.3.0.82913 /opt/sonarqube
 sudo chown -R sonar:sonar /opt/sonarqube
 ```
+![Screenshot from 2025-05-16 10-58-50](https://github.com/user-attachments/assets/646dcb0f-e3bb-405c-b744-91178086e5d0)
 
 ### 5. Configure SonarQube Database Settings
 
@@ -111,6 +116,7 @@ sudo sysctl -p
 ```bash
 sudo -u sonar /opt/sonarqube/bin/linux-x86-64/sonar.sh start
 ```
+![Screenshot from 2025-05-16 11-00-09](https://github.com/user-attachments/assets/ef007c98-7d11-4e30-82ed-492fae55136a)
 
 ### 8. Access SonarQube
 
@@ -126,6 +132,10 @@ The default login is usually:
 - Password: admin
 
 ---
+
+![Screenshot from 2025-05-16 11-01-38](https://github.com/user-attachments/assets/193d434f-4172-407b-80ae-0c59464e75c4)
+![Screenshot from 2025-05-16 11-02-12](https://github.com/user-attachments/assets/ab8771b0-74c0-41d5-947f-037de2c316f4)
+
 
 ## Best Practices
 
