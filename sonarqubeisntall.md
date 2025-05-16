@@ -49,6 +49,7 @@ Before starting the installation process, ensure you have the following:
 
 ```bash
 sudo apt update
+sudo apt upgrade -y
 sudo apt install openjdk-17-jdk unzip wget -y
 ```
 
