@@ -47,45 +47,44 @@ Before starting the installation process, ensure you have the following:
 
 ### 1. Install Java and Required Tools
 
-\`\`\`bash
+```bash
 sudo apt update
 sudo apt install openjdk-17-jdk unzip wget -y
-\`\`\`
+```
 
 ### 2. Create SonarQube User
 
-\`\`\`bash
+```bash
 sudo adduser --system --no-create-home --group --disabled-login sonar
-\`\`\`
+```
 
 ### 3. Install PostgreSQL and Configure Database
 
-\`\`\`bash
+```bash
 sudo apt install postgresql postgresql-contrib -y
 sudo -u postgres psql -c "CREATE USER sonar WITH ENCRYPTED PASSWORD 'sonar';"
 sudo -u postgres psql -c "CREATE DATABASE sonarqube OWNER sonar;"
-\`\`\`
+```
 
 ### 4. Download and Extract SonarQube
 
-\`\`\`bash
+```bash
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.3.0.82913.zip
 unzip sonarqube-10.3.0.82913.zip
 sudo mv sonarqube-10.3.0.82913 /opt/sonarqube
 sudo chown -R sonar:sonar /opt/sonarqube
-\`\`\`
+```
 
 ### 5. Configure SonarQube Database Settings
 
 Edit the \`sonar.properties\` file:
 
-\`\`\`bash
+```bash
 sudo nano /opt/sonarqube/conf/sonar.properties
-\`\`\`
+```
 
 Uncomment and set the following lines:
-
-\`\`\`
+```bash
 # PostgreSQL DB Configuration
 sonar.jdbc.username=sonar
 sonar.jdbc.password=sonar
@@ -93,7 +92,7 @@ sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonarqube
 
 # Bind SonarQube to all network interfaces
 sonar.web.host=0.0.0.0
-\`\`\`
+```
 
 Save and exit the editor.
 
@@ -101,24 +100,24 @@ Save and exit the editor.
 
 Set the virtual memory map count for Elasticsearch (SonarQube dependency):
 
-\`\`\`bash
+```bash
 echo "vm.max_map_count=262144" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
-\`\`\`
+```
 
 ### 7. Start SonarQube Server
 
-\`\`\`bash
+```bash
 sudo -u sonar /opt/sonarqube/bin/linux-x86-64/sonar.sh start
-\`\`\`
+```
 
 ### 8. Access SonarQube
 
 Open a browser and navigate to:
 
-\`\`\`
-http://<your-server-ip>:9000
-\`\`\`
+```bash
+http://<your-server-public-ip>:9000
+```
 
 The default login is usually:
 
