@@ -33,10 +33,13 @@ SonarQube is an open-source platform used for continuous inspection of code qual
 
 Before starting the installation process, ensure you have the following:
 
-- A machine running Ubuntu (tested on Ubuntu 22.04/20.04).
-- Root or sudo privileges to install packages and configure the system.
-- At least 2 GB RAM (4 GB recommended) for SonarQube to run smoothly.
-- PostgreSQL installed or available to be installed on the machine.
+| Requirement           | Details                                |
+|-----------------------|--------------------------------------|
+| Operating System      | Ubuntu 22.04 or 20.04                 |
+| User Privileges       | Root or sudo privileges               |
+| RAM                   | Minimum 2 GB (4 GB recommended)      |
+| Database              | PostgreSQL installed or ready to be installed |
+
 
 ---
 
