@@ -2,6 +2,8 @@
   <img src="https://github.com/user-attachments/assets/2e0f55d0-3034-47da-a844-5c0a7d377207" alt="Screenshot from 2025-05-16 00-20-46" width="450">
 </p>
 
+# SonarQube Installation on Ubuntu with PostgreSQL
+
 | Author   | Created on | Version | Last updated by | Last Edited On | Level             | Reviewer        |
 |----------|------------|---------|-----------------|----------------|-------------------|-----------------|
 | Himanshu | 2025-05-16 | 1.0     | Himanshu        | 2025-05-16     | Internal Reviewer | Komal Jaiswal   |
