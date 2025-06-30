@@ -95,11 +95,8 @@ Avoid canary if:
 
 ## Diagram
 
-```
+![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/c7cb0949-3e8d-4ede-ab9b-b5c5a9ff13b6)
 
-![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/37e9d5bb-55e1-40d1-85ce-477532b5aa30)
-
-```
 
 As confidence grows, traffic is shifted from v1 to v2 until 100% is served by the canary version.
 
