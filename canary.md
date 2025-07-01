@@ -18,7 +18,6 @@
 - [Limitations](#limitations)  
 - [When to Use](#when-to-use)  
 - [Best Practices](#best-practices)  
-- [Diagram](#diagram)  
 - [Conclusion](#conclusion)  
 - [Contact Information](#contact-information)  
 - [References](#references)
@@ -51,6 +50,12 @@ This document explains the **Canary Deployment** strategy in the context of Cont
 | **5. Gradual Rollout** | If healthy, incrementally increase traffic (e.g., 5% → 25% → 50% → 100%). |
 | **6. Rollback If Needed** | If any anomaly is detected, route all traffic back to the stable version and redeploy if necessary. |
 | **7. Full Deployment** | Upon success, promote the canary version as the main production version. |
+
+![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/c7cb0949-3e8d-4ede-ab9b-b5c5a9ff13b6)
+
+
+As confidence grows, traffic is shifted from v1 to v2 until 100% is served by the canary version.
+
 
 ## Benefits
 
@@ -92,13 +97,6 @@ Avoid canary if:
 - Monitor **SLOs** (Service Level Objectives) and **KPIs**.  
 - Use **progressive rollout automation** (e.g., Flagger, Argo Rollouts).  
 - Ensure **backward compatibility** in APIs and DB schemas.
-
-## Diagram
-
-![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/c7cb0949-3e8d-4ede-ab9b-b5c5a9ff13b6)
-
-
-As confidence grows, traffic is shifted from v1 to v2 until 100% is served by the canary version.
 
 ## Conclusion
 
