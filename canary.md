@@ -1,6 +1,7 @@
 # CD Design Document – Canary Deployment Strategy
 
-## Document Metadata
+![canary](https://github.com/user-attachments/assets/2bf3b5df-b679-4bef-abc2-abbf60ef96fe)
+
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**       |
 |------------|----------------|-------------|----------------------|---------------------|---------------------|---------------------|
@@ -51,7 +52,10 @@ This document explains the **Canary Deployment** strategy in the context of Cont
 | **6. Rollback If Needed** | If any anomaly is detected, route all traffic back to the stable version and redeploy if necessary. |
 | **7. Full Deployment** | Upon success, promote the canary version as the main production version. |
 
-![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/c7cb0949-3e8d-4ede-ab9b-b5c5a9ff13b6)
+
+
+![Screenshot from 2025-07-01 00-06-10](https://github.com/user-attachments/assets/d3bd1e81-c7b3-459c-bdf1-31a664a9ba0e)
+
 
 
 As confidence grows, traffic is shifted from v1 to v2 until 100% is served by the canary version.
