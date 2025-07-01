@@ -1,7 +1,6 @@
 # CD Design Document – Canary Deployment Strategy
 
-![canary](https://github.com/user-attachments/assets/2bf3b5df-b679-4bef-abc2-abbf60ef96fe)
-
+![b715d6fb-b658-41c0-84be-167a7f182ddf](https://github.com/user-attachments/assets/7263866e-e3d2-46a1-bd56-21000e1176e8)
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**       |
 |------------|----------------|-------------|----------------------|---------------------|---------------------|---------------------|
